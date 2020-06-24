@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29926.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Tools_for_SMILES_conversion", "Tools_for_SMILES_conversion.pyproj", "{7CACDDCE-0366-46F6-8782-6729F6992323}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7CACDDCE-0366-46F6-8782-6729F6992323}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CACDDCE-0366-46F6-8782-6729F6992323}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EB998149-4E64-431F-A024-FB923EC74C6C}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,277 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7cacddce-0366-46f6-8782-6729f6992323}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile>SMILES_to_AIOMFAC_input.py</StartupFile>
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <InterpreterId>Global|VisualStudio|Python37</InterpreterId>
+    <IsWindowsApplication>False</IsWindowsApplication>
+    <EnableNativeCodeDebugging>False</EnableNativeCodeDebugging>
+    <Name>Tools_for_SMILES_conversion</Name>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="IndigoToolkit\lib\collections\abc.pyc" />
+    <Content Include="IndigoToolkit\lib\collections\__init__.pyc" />
+    <Content Include="IndigoToolkit\lib\ctypes\macholib\fetch_macholib" />
+    <Content Include="IndigoToolkit\lib\ctypes\macholib\fetch_macholib.bat" />
+    <Content Include="IndigoToolkit\lib\ctypes\macholib\README.ctypes" />
+    <Content Include="IndigoToolkit\lib\ctypes\_endian.pyc" />
+    <Content Include="IndigoToolkit\lib\ctypes\__init__.pyc" />
+    <Content Include="IndigoToolkit\lib\email\architecture.rst" />
+    <Content Include="IndigoToolkit\lib\email\base64mime.pyc" />
+    <Content Include="IndigoToolkit\lib\email\charset.pyc" />
+    <Content Include="IndigoToolkit\lib\email\contentmanager.pyc" />
+    <Content Include="IndigoToolkit\lib\email\encoders.pyc" />
+    <Content Include="IndigoToolkit\lib\email\errors.pyc" />
+    <Content Include="IndigoToolkit\lib\email\feedparser.pyc" />
+    <Content Include="IndigoToolkit\lib\email\generator.pyc" />
+    <Content Include="IndigoToolkit\lib\email\header.pyc" />
+    <Content Include="IndigoToolkit\lib\email\headerregistry.pyc" />
+    <Content Include="IndigoToolkit\lib\email\iterators.pyc" />
+    <Content Include="IndigoToolkit\lib\email\message.pyc" />
+    <Content Include="IndigoToolkit\lib\email\parser.pyc" />
+    <Content Include="IndigoToolkit\lib\email\policy.pyc" />
+    <Content Include="IndigoToolkit\lib\email\quoprimime.pyc" />
+    <Content Include="IndigoToolkit\lib\email\utils.pyc" />
+    <Content Include="IndigoToolkit\lib\email\_encoded_words.pyc" />
+    <Content Include="IndigoToolkit\lib\email\_header_value_parser.pyc" />
+    <Content Include="IndigoToolkit\lib\email\_parseaddr.pyc" />
+    <Content Include="IndigoToolkit\lib\email\_policybase.pyc" />
+    <Content Include="IndigoToolkit\lib\email\__init__.pyc" />
+    <Content Include="IndigoToolkit\lib\encodings\aliases.pyc" />
+    <Content Include="IndigoToolkit\lib\encodings\ascii.pyc" />
+    <Content Include="IndigoToolkit\lib\encodings\base64_codec.pyc" />
+    <Content Include="IndigoToolkit\lib\encodings\big5.pyc" />
+    <Content Include="IndigoToolkit\lib\encodings\big5hkscs.pyc" />
+    <Content Include="IndigoToolkit\lib\encodings\bz2_codec.pyc" />
+    <Content Include="IndigoToolkit\lib\encodings\charmap.pyc" />
+    <Content Include="IndigoToolkit\lib\encodings\cp037.pyc" />
+    <Content Include="IndigoToolkit\lib\encodings\cp1006.pyc" />
+    <Content Include="IndigoToolkit\lib\encodings\cp1026.pyc" />
+    <Content Include="IndigoToolkit\lib\encodings\cp1125.pyc" />
+    <Content Include="IndigoToolkit\lib\encodings\cp1140.pyc" />
+    <Content Include="IndigoToolkit\lib\encodings\cp1250.pyc" />
+    <Content Include="IndigoToolkit\lib\encodings\cp1251.pyc" />
+    <Content Include="IndigoToolkit\lib\encodings\cp1252.pyc" />
+    <Content Include="IndigoToolkit\lib\encodings\cp1253.pyc" />
+    <Content Include="IndigoToolkit\lib\encodings\cp1254.pyc" />
+    <Content Include="IndigoToolkit\lib\encodings\cp1255.pyc" />
+    <Content Include="IndigoToolkit\lib\encodings\cp1256.pyc" />
+    <Content Include="IndigoToolkit\lib\encodings\cp1257.pyc" />
+    <Content Include="IndigoToolkit\lib\encodings\cp1258.pyc" />
+    <Content Include="IndigoToolkit\lib\encodings\cp273.pyc" />
+    <Content Include="IndigoToolkit\lib\encodings\cp424.pyc" />
+    <Content Include="IndigoToolkit\lib\encodings\cp437.pyc" />
+    <Content Include="IndigoToolkit\lib\encodings\cp500.pyc" />
+    <Content Include="IndigoToolkit\lib\encodings\cp65001.pyc" />
+    <Content Include="IndigoToolkit\lib\encodings\cp720.pyc" />
+    <Content Include="IndigoToolkit\lib\encodings\cp737.pyc" />
+    <Content Include="IndigoToolkit\lib\encodings\cp775.pyc" />
+    <Content Include="IndigoToolkit\lib\encodings\cp850.pyc" />
+    <Content Include="IndigoToolkit\lib\encodings\cp852.pyc" />
+    <Content Include="IndigoToolkit\lib\encodings\cp855.pyc" />
+    <Content Include="IndigoToolkit\lib\encodings\cp856.pyc" />
+    <Content Include="IndigoToolkit\lib\encodings\cp857.pyc" />
+    <Content Include="IndigoToolkit\lib\encodings\cp858.pyc" />
+    <Content Include="IndigoToolkit\lib\encodings\cp860.pyc" />
+    <Content Include="IndigoToolkit\lib\encodings\cp861.pyc" />
+    <Content Include="IndigoToolkit\lib\encodings\cp862.pyc" />
+    <Content Include="IndigoToolkit\lib\encodings\cp863.pyc" />
+    <Content Include="IndigoToolkit\lib\encodings\cp864.pyc" />
+    <Content Include="IndigoToolkit\lib\encodings\cp865.pyc" />
+    <Content Include="IndigoToolkit\lib\encodings\cp866.pyc" />
+    <Content Include="IndigoToolkit\lib\encodings\cp869.pyc" />
+    <Content Include="IndigoToolkit\lib\encodings\cp874.pyc" />
+    <Content Include="IndigoToolkit\lib\encodings\cp875.pyc" />
+    <Content Include="IndigoToolkit\lib\encodings\cp932.pyc" />
+    <Content Include="IndigoToolkit\lib\encodings\cp949.pyc" />
+    <Content Include="IndigoToolkit\lib\encodings\cp950.pyc" />
+    <Content Include="IndigoToolkit\lib\encodings\euc_jisx0213.pyc" />
+    <Content Include="IndigoToolkit\lib\encodings\euc_jis_2004.pyc" />
+    <Content Include="IndigoToolkit\lib\encodings\euc_jp.pyc" />
+    <Content Include="IndigoToolkit\lib\encodings\euc_kr.pyc" />
+    <Content Include="IndigoToolkit\lib\encodings\gb18030.pyc" />
+    <Content Include="IndigoToolkit\lib\encodings\gb2312.pyc" />
+    <Content Include="IndigoToolkit\lib\encodings\gbk.pyc" />
+    <Content Include="IndigoToolkit\lib\encodings\hex_codec.pyc" />
+    <Content Include="IndigoToolkit\lib\encodings\hp_roman8.pyc" />
+    <Content Include="IndigoToolkit\lib\encodings\hz.pyc" />
+    <Content Include="IndigoToolkit\lib\encodings\idna.pyc" />
+    <Content Include="IndigoToolkit\lib\encodings\iso2022_jp.pyc" />
+    <Content Include="IndigoToolkit\lib\encodings\iso2022_jp_1.pyc" />
+    <Content Include="IndigoToolkit\lib\encodings\iso2022_jp_2.pyc" />
+    <Content Include="IndigoToolkit\lib\encodings\iso2022_jp_2004.pyc" />
+    <Content Include="IndigoToolkit\lib\encodings\iso2022_jp_3.pyc" />
+    <Content Include="IndigoToolkit\lib\encodings\iso2022_jp_ext.pyc" />
+    <Content Include="IndigoToolkit\lib\encodings\iso2022_kr.pyc" />
+    <Content Include="IndigoToolkit\lib\encodings\iso8859_1.pyc" />
+    <Content Include="IndigoToolkit\lib\encodings\iso8859_10.pyc" />
+    <Content Include="IndigoToolkit\lib\encodings\iso8859_11.pyc" />
+    <Content Include="IndigoToolkit\lib\encodings\iso8859_13.pyc" />
+    <Content Include="IndigoToolkit\lib\encodings\iso8859_14.pyc" />
+    <Content Include="IndigoToolkit\lib\encodings\iso8859_15.pyc" />
+    <Content Include="IndigoToolkit\lib\encodings\iso8859_16.pyc" />
+    <Content Include="IndigoToolkit\lib\encodings\iso8859_2.pyc" />
+    <Content Include="IndigoToolkit\lib\encodings\iso8859_3.pyc" />
+    <Content Include="IndigoToolkit\lib\encodings\iso8859_4.pyc" />
+    <Content Include="IndigoToolkit\lib\encodings\iso8859_5.pyc" />
+    <Content Include="IndigoToolkit\lib\encodings\iso8859_6.pyc" />
+    <Content Include="IndigoToolkit\lib\encodings\iso8859_7.pyc" />
+    <Content Include="IndigoToolkit\lib\encodings\iso8859_8.pyc" />
+    <Content Include="IndigoToolkit\lib\encodings\iso8859_9.pyc" />
+    <Content Include="IndigoToolkit\lib\encodings\johab.pyc" />
+    <Content Include="IndigoToolkit\lib\encodings\koi8_r.pyc" />
+    <Content Include="IndigoToolkit\lib\encodings\koi8_t.pyc" />
+    <Content Include="IndigoToolkit\lib\encodings\koi8_u.pyc" />
+    <Content Include="IndigoToolkit\lib\encodings\kz1048.pyc" />
+    <Content Include="IndigoToolkit\lib\encodings\latin_1.pyc" />
+    <Content Include="IndigoToolkit\lib\encodings\mac_arabic.pyc" />
+    <Content Include="IndigoToolkit\lib\encodings\mac_centeuro.pyc" />
+    <Content Include="IndigoToolkit\lib\encodings\mac_croatian.pyc" />
+    <Content Include="IndigoToolkit\lib\encodings\mac_cyrillic.pyc" />
+    <Content Include="IndigoToolkit\lib\encodings\mac_farsi.pyc" />
+    <Content Include="IndigoToolkit\lib\encodings\mac_greek.pyc" />
+    <Content Include="IndigoToolkit\lib\encodings\mac_iceland.pyc" />
+    <Content Include="IndigoToolkit\lib\encodings\mac_latin2.pyc" />
+    <Content Include="IndigoToolkit\lib\encodings\mac_roman.pyc" />
+    <Content Include="IndigoToolkit\lib\encodings\mac_romanian.pyc" />
+    <Content Include="IndigoToolkit\lib\encodings\mac_turkish.pyc" />
+    <Content Include="IndigoToolkit\lib\encodings\mbcs.pyc" />
+    <Content Include="IndigoToolkit\lib\encodings\oem.pyc" />
+    <Content Include="IndigoToolkit\lib\encodings\palmos.pyc" />
+    <Content Include="IndigoToolkit\lib\encodings\ptcp154.pyc" />
+    <Content Include="IndigoToolkit\lib\encodings\punycode.pyc" />
+    <Content Include="IndigoToolkit\lib\encodings\quopri_codec.pyc" />
+    <Content Include="IndigoToolkit\lib\encodings\raw_unicode_escape.pyc" />
+    <Content Include="IndigoToolkit\lib\encodings\rot_13.pyc" />
+    <Content Include="IndigoToolkit\lib\encodings\shift_jis.pyc" />
+    <Content Include="IndigoToolkit\lib\encodings\shift_jisx0213.pyc" />
+    <Content Include="IndigoToolkit\lib\encodings\shift_jis_2004.pyc" />
+    <Content Include="IndigoToolkit\lib\encodings\tis_620.pyc" />
+    <Content Include="IndigoToolkit\lib\encodings\undefined.pyc" />
+    <Content Include="IndigoToolkit\lib\encodings\unicode_escape.pyc" />
+    <Content Include="IndigoToolkit\lib\encodings\unicode_internal.pyc" />
+    <Content Include="IndigoToolkit\lib\encodings\utf_16.pyc" />
+    <Content Include="IndigoToolkit\lib\encodings\utf_16_be.pyc" />
+    <Content Include="IndigoToolkit\lib\encodings\utf_16_le.pyc" />
+    <Content Include="IndigoToolkit\lib\encodings\utf_32.pyc" />
+    <Content Include="IndigoToolkit\lib\encodings\utf_32_be.pyc" />
+    <Content Include="IndigoToolkit\lib\encodings\utf_32_le.pyc" />
+    <Content Include="IndigoToolkit\lib\encodings\utf_7.pyc" />
+    <Content Include="IndigoToolkit\lib\encodings\utf_8.pyc" />
+    <Content Include="IndigoToolkit\lib\encodings\utf_8_sig.pyc" />
+    <Content Include="IndigoToolkit\lib\encodings\uu_codec.pyc" />
+    <Content Include="IndigoToolkit\lib\encodings\zlib_codec.pyc" />
+    <Content Include="IndigoToolkit\lib\encodings\__init__.pyc" />
+    <Content Include="IndigoToolkit\lib\html\entities.pyc" />
+    <Content Include="IndigoToolkit\lib\html\__init__.pyc" />
+    <Content Include="IndigoToolkit\lib\http\client.pyc" />
+    <Content Include="IndigoToolkit\lib\http\server.pyc" />
+    <Content Include="IndigoToolkit\lib\http\__init__.pyc" />
+    <Content Include="IndigoToolkit\lib\importlib\abc.pyc" />
+    <Content Include="IndigoToolkit\lib\importlib\machinery.pyc" />
+    <Content Include="IndigoToolkit\lib\importlib\util.pyc" />
+    <Content Include="IndigoToolkit\lib\importlib\_bootstrap.pyc" />
+    <Content Include="IndigoToolkit\lib\importlib\_bootstrap_external.pyc" />
+    <Content Include="IndigoToolkit\lib\importlib\__init__.pyc" />
+    <Content Include="IndigoToolkit\lib\logging\__init__.pyc" />
+    <Content Include="IndigoToolkit\lib\pydoc_data\topics.pyc" />
+    <Content Include="IndigoToolkit\lib\pydoc_data\_pydoc.css" />
+    <Content Include="IndigoToolkit\lib\pydoc_data\__init__.pyc" />
+    <Content Include="IndigoToolkit\lib\pyexpat.pyd" />
+    <Content Include="IndigoToolkit\lib\select.pyd" />
+    <Content Include="IndigoToolkit\lib\unicodedata.pyd" />
+    <Content Include="IndigoToolkit\lib\unittest\case.pyc" />
+    <Content Include="IndigoToolkit\lib\unittest\loader.pyc" />
+    <Content Include="IndigoToolkit\lib\unittest\main.pyc" />
+    <Content Include="IndigoToolkit\lib\unittest\result.pyc" />
+    <Content Include="IndigoToolkit\lib\unittest\runner.pyc" />
+    <Content Include="IndigoToolkit\lib\unittest\signals.pyc" />
+    <Content Include="IndigoToolkit\lib\unittest\suite.pyc" />
+    <Content Include="IndigoToolkit\lib\unittest\util.pyc" />
+    <Content Include="IndigoToolkit\lib\unittest\__init__.pyc" />
+    <Content Include="IndigoToolkit\lib\urllib\parse.pyc" />
+    <Content Include="IndigoToolkit\lib\urllib\__init__.pyc" />
+    <Content Include="IndigoToolkit\lib\Win\x64\bingo.dll" />
+    <Content Include="IndigoToolkit\lib\Win\x64\indigo-inchi.dll" />
+    <Content Include="IndigoToolkit\lib\Win\x64\indigo-renderer.dll" />
+    <Content Include="IndigoToolkit\lib\Win\x64\indigo.dll" />
+    <Content Include="IndigoToolkit\lib\Win\x64\MSVCP120.dll" />
+    <Content Include="IndigoToolkit\lib\Win\x64\msvcr120.dll" />
+    <Content Include="IndigoToolkit\lib\Win\x86\bingo.dll" />
+    <Content Include="IndigoToolkit\lib\Win\x86\indigo-inchi.dll" />
+    <Content Include="IndigoToolkit\lib\Win\x86\indigo-renderer.dll" />
+    <Content Include="IndigoToolkit\lib\Win\x86\indigo.dll" />
+    <Content Include="IndigoToolkit\lib\Win\x86\MSVCP120.dll" />
+    <Content Include="IndigoToolkit\lib\Win\x86\msvcr120.dll" />
+    <Content Include="IndigoToolkit\lib\xml\parsers\expat.pyc" />
+    <Content Include="IndigoToolkit\lib\xml\parsers\__init__.pyc" />
+    <Content Include="IndigoToolkit\lib\xml\__init__.pyc" />
+    <Content Include="IndigoToolkit\lib\_bz2.pyd" />
+    <Content Include="IndigoToolkit\lib\_ctypes.pyd" />
+    <Content Include="IndigoToolkit\lib\_hashlib.pyd" />
+    <Content Include="IndigoToolkit\lib\_lzma.pyd" />
+    <Content Include="IndigoToolkit\lib\_socket.pyd" />
+    <Content Include="IndigoToolkit\lib\_ssl.pyd" />
+    <Content Include="IndigoToolkit\__pycache__\indigo_renderer.cpython-37.pyc" />
+    <Content Include="IndigoToolkit\__pycache__\__init__.cpython-37.pyc" />
+    <Content Include="InputFiles\smiles_0001.txt" />
+    <Content Include="InputFiles\smiles_1409.txt" />
+    <Content Include="InputFiles\smiles_1441.txt" />
+    <Content Include="InputFiles\smiles_1442.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="IndigoToolkit\indigo_renderer.py" />
+    <Compile Include="IndigoToolkit\__init__.py" />
+    <Compile Include="ModSmilesTools.py" />
+    <Compile Include="SMARTS_query_list.py" />
+    <Compile Include="SMILES_to_AIOMFAC_input.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="IndigoToolkit\" />
+    <Folder Include="IndigoToolkit\lib\" />
+    <Folder Include="IndigoToolkit\lib\collections\" />
+    <Folder Include="IndigoToolkit\lib\ctypes\" />
+    <Folder Include="IndigoToolkit\lib\ctypes\macholib\" />
+    <Folder Include="IndigoToolkit\lib\ctypes\test\" />
+    <Folder Include="IndigoToolkit\lib\email\" />
+    <Folder Include="IndigoToolkit\lib\email\mime\" />
+    <Folder Include="IndigoToolkit\lib\encodings\" />
+    <Folder Include="IndigoToolkit\lib\html\" />
+    <Folder Include="IndigoToolkit\lib\http\" />
+    <Folder Include="IndigoToolkit\lib\importlib\" />
+    <Folder Include="IndigoToolkit\lib\logging\" />
+    <Folder Include="IndigoToolkit\lib\pydoc_data\" />
+    <Folder Include="IndigoToolkit\lib\unittest\" />
+    <Folder Include="IndigoToolkit\lib\unittest\test\" />
+    <Folder Include="IndigoToolkit\lib\unittest\test\testmock\" />
+    <Folder Include="IndigoToolkit\lib\urllib\" />
+    <Folder Include="IndigoToolkit\lib\Win\" />
+    <Folder Include="IndigoToolkit\lib\Win\x64\" />
+    <Folder Include="IndigoToolkit\lib\Win\x86\" />
+    <Folder Include="IndigoToolkit\lib\xml\" />
+    <Folder Include="IndigoToolkit\lib\xml\dom\" />
+    <Folder Include="IndigoToolkit\lib\xml\etree\" />
+    <Folder Include="IndigoToolkit\lib\xml\parsers\" />
+    <Folder Include="IndigoToolkit\lib\xml\sax\" />
+    <Folder Include="IndigoToolkit\__pycache__\" />
+    <Folder Include="InputFiles" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="Global|PythonCore|3.7" />
+    <InterpreterReference Include="Global|VisualStudio|Python37" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+</Project>
